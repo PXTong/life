@@ -1,0 +1,248 @@
+@charset 'utf-8';
+@media screen and (min-width: 700px){
+	header{
+		max-width: 1360px;
+		position: relative;
+	}
+	header .toplinks{
+		font-size: 13px;
+		position: absolute;
+		top: 8px;
+		right:160px;
+	}
+	.toplinks a{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.nav{
+		position: relative;
+	}
+	.nav .women a{
+		// color: #fff;
+	}
+	.nav .logo{
+		margin-top: 20px;
+		margin-left: 140px;  
+	}
+	.nav ul{
+		float: right;
+		width: 900px;
+		height: 80px;
+		margin-top: -70px;
+		margin-right: 240px;
+	}
+	.nav li{
+		width: 105px;
+		height: 55px;
+		padding-top: 15px;
+		padding-left: 18px;
+		float: right;
+	}
+	.nav .background{
+		position: absolute;
+		left: 370px;
+		top: 30px;
+		width: 105px;
+		height: 65px;
+		margin-top:5px;
+		margin-left: 6px;
+		// background-color: #FFBA01;
+		border-radius: 10px;
+		z-index: -1;
+	}
+	.nav li a{
+		display: inline-block;
+		width: 95px;
+		height: 55px;
+		color: #FFA501;
+		font-weight: 600;
+		font-size: 18px;
+	}
+	.nav i{
+		font-size: 25px;
+		font-weight: 200px;
+		margin-top: -50px;
+		margin-right: 14%;
+	}
+	.nav #icon{
+		display: none;
+	}
+	.content{
+		position: relative;
+	}
+	.content .centerpic .tel{
+		position: absolute;
+		left: 30%;
+		top: 374px;
+	}
+	.content .centerpic .tel a{
+		margin-right: -5px;	
+	}
+	.content .pic{
+		width: 100%;
+		height:450px;
+		position: relative;
+	}
+	.content .pic .heart ul{
+		position: absolute;
+		top:400px;
+		left: 174px;
+	}
+	.content .pic .heart li{
+		float: left;
+		width: 20px;
+		height: 20px;
+		margin-right: 10px; 
+	}
+	.content .pic .heart a{
+		display: block;
+		width: 20px;
+		height: 20px;
+		background-image: url(../images/slide_banner.png);
+		background-repeat: no-repeat;
+		position: absolute;
+	}
+	.content .introduce{
+		overflow: hidden;
+	}
+	.content .introduce .about{
+		position: absolute;
+		top: 113px;
+		left: 545px;
+	}
+	.content .introduce .text{
+		text-align: center;
+		width: 1000px;
+		position: absolute;
+		bottom: 20px;
+		left: 158px;
+	}
+	.content .bigbg02{
+		width: 100%;
+		height: 230px;
+		background: url(../images/bigbg02.jpg) center no-repeat;
+		background-attachment: fixed;
+	}
+	.content .service .service1{
+		position: absolute;
+		top: 90px;
+		left: 545px;
+	}
+	.content .links ul{
+		position: absolute;
+		top: 220px;
+		left: 220px;
+	}
+	.content .links li{
+		margin-right: 55px;
+	}
+	.content .line2{
+		background:url(../images/i_line02_1.png) no-repeat;
+		width: 859px;
+		height: 144px;
+		position: absolute;
+		bottom: 100px;
+		left: 260px; 
+	}
+	.content .line2 p{
+		font-size: 30px;
+		margin-top: 90px;
+		margin-left: 220px;
+	}
+	.content .news{
+		background:url(../images/bigbg01.jpg) center no-repeat;
+		background-attachment: fixed;
+	}
+	.content .news .news1{
+		background: url(../images/i_titlebg1.png) no-repeat;
+		position: absolute;
+		top: 90px;
+		left: 545px;
+	}
+	.content .news .news1 span{
+		color: #fff;
+	}
+	.content .news .news1 p{
+		color: #fff;
+	}
+	.content .news .morenew ul{
+		position: absolute;
+		top: 200px;
+		left: 510px;
+	}
+	.content .news .morenew ul li{
+		width: 153px;
+	}
+	.content .process{
+		height: 610px;
+	}
+	.content .process .process1{
+		position: absolute;
+		top: 90px;
+		left: 545px;
+	}
+	.content .process  .t{
+		position: absolute;
+		top: 190px;
+		left: 400px;
+	}
+	.content .process .links2 .dhli{
+		position: absolute;
+		bottom: 230px;
+		left: 240px;
+	}
+	.content .process .links2 .wbli{
+		position: absolute;
+		bottom: 180px;
+		left: 470px;
+	}
+	.content .process .links2 .xsli{
+		position: absolute;
+		bottom: 230px;
+		left: 690px;
+	}
+	.content .process .links2 .kfli{
+		position: absolute;
+		bottom: 180px;
+		left: 920px;
+	}
+	footer .ad li{
+		width: 268px;
+	}
+	footer .qt{
+		position: relative;
+	}
+
+	footer .ew{
+		position: absolute;
+		top: 50px;
+		left: 430px;
+	}
+	footer .fenx{
+		position: absolute;
+		top:160px;
+		left: 550px;
+	}
+	footer .lxfs{
+		position: absolute;
+		top: 210px;
+		left: 400px;
+		font-size: 12px;
+	}
+	footer .lxfs .tel li a{
+		font-size: 12px;
+	}
+	footer .twocode{
+		position: absolute;
+		top: 290px;
+		left: 500px;
+	}
+	footer .police{
+		position: absolute;
+		top:440px;
+		left: 570px;
+	}
+	footer .police img{
+		padding-top: 12px;
+	}
+}

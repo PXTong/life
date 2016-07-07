@@ -1,0 +1,122 @@
+@charset 'utf-8';
+@media screen and (min-width: 700px){
+	header{
+		max-width: 1360px;
+		position: relative;
+	}
+	header .toplinks{
+		font-size: 13px;
+		position: absolute;
+		top: 8px;
+		right:160px;
+	}
+	.toplinks a{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.nav{
+		position: relative;
+	}
+	.nav .women a{
+		color: #fff;
+	}
+	.nav .logo{
+		margin-top: 20px;
+		margin-left: 140px;  
+	}
+	.nav ul{
+		float: right;
+		width: 770px;
+		height: 80px;
+		margin-top: -70px;
+		margin-right: 240px;
+	}
+	.nav li{
+		width: 89px;
+		height: 55px;
+		padding-top: 15px;
+		padding-left: 18px;
+		float: right;
+	}
+	// .nav li a:hover{
+	// 	color: #fff;
+	// 	background-color: #FFBA01;
+	// 	border-radius: 10px;
+	// }
+	.nav .background{
+		position: absolute;
+		left: 370px;
+		top: 30px;
+		width: 89px;
+		height: 55px;
+		margin-top:-15px;
+		margin-left: -12px;
+		padding-top: 5px;
+		padding-left: 20px;
+		background-color: #FFBA01;
+		border-radius: 10px;
+		z-index: -1;
+	}
+	.nav li a{
+		display: inline-block;
+		width: 89px;
+		height: 55px;
+		margin-top:-15px;
+		margin-left: -20px;
+		padding-top: 15px;
+		padding-left: 18px;
+		color: #FFA501;
+		font-weight: 600;
+		font-size: 18px;
+		padding-top: -10px;
+	}
+	.nav i{
+		font-size: 25px;
+		font-weight: 200px;
+		margin-top: -50px;
+		margin-right: 14%;
+	}
+	.nav #icon{
+		display: none;
+	}
+
+	footer .ad li{
+		width: 268px;
+	}
+	footer .qt{
+		position: relative;
+	}
+
+	footer .ew{
+		position: absolute;
+		top: 50px;
+		left: 430px;
+	}
+	footer .fenx{
+		position: absolute;
+		top:160px;
+		left: 550px;
+	}
+	footer .lxfs{
+		position: absolute;
+		top: 210px;
+		left: 400px;
+		font-size: 12px;
+	}
+	footer .lxfs .tel li a{
+		font-size: 12px;
+	}
+	footer .twocode{
+		position: absolute;
+		top: 290px;
+		left: 500px;
+	}
+	footer .police{
+		position: absolute;
+		top:440px;
+		left: 570px;
+	}
+	footer .police img{
+		padding-top: 12px;
+	}
+}	
