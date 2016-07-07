@@ -183,7 +183,7 @@
     bottom: -10px;
 }
 .box img:hover{
-    transform:scale(1.1);
+    transform:scale(1.2);
     transtion-duration:1.8s;
-    // transtion:all .8s ease 0s;
+    transtion:all 10s ease 0s !important;
 }

@@ -38,10 +38,6 @@ header .toplinks{
 	width: 170px;
 	color: #ACACAC;
 }
-header .toplinks i{
-	font-size: 16px;
-	width: 6px;
-}
 .toplinks a{
 	color: #ACACAC;
 }
@@ -55,20 +51,6 @@ header .toplinks i{
 	float: right;
 	font-weight: 200px;
 	cursor: pointer;
-	// font-size: 14px;
-}
-.nav li a{
-	width: 90px;
-	height: 53px;
-	background-color: #fff;
-	display: block;
-	padding-top: 10px;
-	padding-left: 12px;
-	border-radius: 10px;
-}
-.nav li a:hover{
-	color: #fff;
-	background-color:#FFBA01; 
 }
 
 
@@ -192,7 +174,7 @@ header .toplinks i{
 }
 .content .introduce .about p span{
 	display: inline-block;
-	margin-right: -140px;
+	margin-right: -60px;
 	color: #EDBC00;
 	font-size: 25px;
 	font-weight: 350;
@@ -260,7 +242,7 @@ header .toplinks i{
 }
 .content .service .service1 p span{
 	display: inline-block;
-	margin-right: -140px;
+	margin-right: -60px;
 	color: #EDBC00;
 	font-size: 25px;
 	font-weight: 350;
@@ -375,7 +357,7 @@ header .toplinks i{
 }
 .content .news .news1 p span{
 	display: inline-block;
-	margin-right: -160px;
+	margin-right: -60px;
 	color: #EDBC00;
 	font-size: 25px;
 	font-weight: 350;
@@ -528,7 +510,7 @@ header .toplinks i{
 }
 .content .process .process1 p span{
 	display: inline-block;
-	margin-right: -140px;
+	margin-right: -60px;
 	color: #EDBC00;
 	font-size: 25px;
 	font-weight: 350;
@@ -716,50 +698,4 @@ footer .police img{
 	height: 20px;
 	line-height: 20px;
 	
-}
-.media{
-margin:0 0px;
-}
-.media img{
-width:180px;
-height: 100px;
-// padding:3px;
-// border:5px solid #fff;
-}
-#flexiselDemo1 li{ 
-    height: 100px;
-    border-right: 1px solid #DDDDDD;
-    text-align: center;
-    background-color: #F3F3F3; 
-}
-#flexiselDemo1 {
-	display: none;
-}
-.nbs-flexisel-container {
-	position: relative;
-	max-width: 100%;
-}
-.nbs-flexisel-ul {
-	position: relative;
-	width: 9999px;
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-	text-align: center;
-}
-.nbs-flexisel-inner {
-	overflow: hidden;
-	margin: 0px auto;
-}
-.nbs-flexisel-item {
-	float: left;
-	margin: 0;
-	padding: 0px;
-	cursor: pointer;
-	position: relative;
-	line-height: 0px;
-}
-.nbs-flexisel-item > img {
-	cursor: pointer;
-	position: relative;
 } 

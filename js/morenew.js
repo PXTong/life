@@ -11,4 +11,5 @@ $(function(){
 		$('.content .news .pictext').hide();
 		$('.content .news .pictext2').show();
 	});
+
 });
